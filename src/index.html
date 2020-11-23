@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework-13</title>
+  </head>
+
+  <body>
+    <form class="search-form js-search-form" id="search-form">
+      <input
+        class="search-form__input"
+        type="text"
+        name="query"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button class="search-form__button" type="submit">search</button>
+    </form>
+
+    <ul class="gallery js-gallery"></ul>
+    <spinner-loader
+      size="4rem"
+      circle="#d6faff"
+      inner="#00bcd4"
+      class="spinner spinner-disable"
+    >
+    </spinner-loader>
+    <button class="load-more is-hidden search-form__button" type="button">
+      load more
+    </button>
+  </body>
+</html>
